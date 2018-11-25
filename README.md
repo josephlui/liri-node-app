@@ -6,8 +6,8 @@ Liri node app is an AI driven app written in node.  Its functionality is similr 
 
 The quickest way to get started is to download the repo and run the following commands to start the app.
 
-node spotify-this-song [song name]
-node movie-this [movie name]
+node spotify-this-song [song name]<br/>
+node movie-this [movie name]<br/><br/>
 
 ### Prerequisites
 
@@ -25,11 +25,13 @@ In order to connect to Spotify, you will need to obtain an API key from Spotify.
     node movie-this [movie name]
     Eg: node liri.js movie-this Harry Potter
 6)  You can also specify your command in random.txt
-    The file takes 2 parameters.  The first parameter can be spotify-this-song or movie-this.  The second parameter specifies the name of the song or name of the movie depending on the first parameter.
+    The file takes 2 parameters.  The first parameter can be spotify-this-song or movie-this.  The second parameter specifies the name of the song or name of the movie depending on the first parameter.  Once the file is ready, you can run the following command to execute the instruction in random.txt.
+    Eg: node liri.js do-what-it-says
 7)  If a movie cannot be found, the recommended movie would be "Mr. Nobody".
 8)  If a song cannot be found, the recommended song would be "The Sign".
 9)  The result will be displayed nicely in console.
 
+<img src="images/result.png" height="400" alt="Screenshot"/>
 
 ## Running the tests
 

@@ -7,7 +7,7 @@ Liri node app is an AI driven app written in node.  Its functionality is similr 
 The quickest way to get started is to download the repo and run the following commands to start the app.
 
 node spotify-this-song [song name]<br/>
-node movie-this [movie name]<br/><br/>
+node movie-this [movie name]<br/>
 
 ### Prerequisites
 
@@ -31,7 +31,7 @@ In order to connect to Spotify, you will need to obtain an API key from Spotify.
 8)  If a song cannot be found, the recommended song would be "The Sign".
 9)  The result will be displayed nicely in console.
 
-<img src="images/result.png" height="400" alt="Screenshot"/>
+<img src="images/result.png" height="500" alt="Screenshot"/>
 
 ## Running the tests
 
@@ -55,11 +55,11 @@ N/A
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+N/A
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+N/A
 
 ## Authors
 
